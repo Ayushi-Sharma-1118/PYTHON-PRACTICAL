@@ -1,0 +1,13 @@
+def count(s):
+  d={"upper":0,"lower":0}
+  for c in s:
+    if c.isupper():
+      d["upper"]+=1
+    elif:
+    d["lower"]+=1
+    else:
+      pass
+  print("No. of uppercase characters are",d["upper"])
+  print("No. of lowercase characters are",d["lower"])
+str=input("enter the string")
+count(str)
