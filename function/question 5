@@ -1,0 +1,14 @@
+def check(n):
+  if(n==1):
+    print("not prime")
+  elif(n==2):
+    print("prime")
+  else:
+    count=0
+    for i in range(3,n):
+      if(n%i==0):
+        count+=1
+    if(count==0):
+      print("prime")
+num=int(input("enter the number"))
+check(num)
