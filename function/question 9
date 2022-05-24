@@ -1,0 +1,12 @@
+def unique(lis):
+  temp=[]
+  for i in lis:
+    if i not in temp:
+      temp.append(i)
+  print(temp)
+n=int(input("enter the number of elements"))
+a=[]
+for i in range(0,n):
+  val=input("enter the value")
+  a.append(val)
+unique(a)
