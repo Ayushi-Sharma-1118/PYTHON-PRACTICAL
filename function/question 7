@@ -1,0 +1,11 @@
+def multiply(lis):
+  f=1
+  for i in lis:
+    f=f*i
+  print("the multiplication of list numbers is",f)
+n=int(input("enter the number of elements"))
+a=[]
+for i in range(0,n):
+  m=input("enter the value")
+  a.append(m)
+multiply(a)
