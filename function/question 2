@@ -1,0 +1,10 @@
+def recur(n):
+  if n==1:
+    return n
+  else:
+    return n*recur(n-1)
+num=int(input("Enter number"))
+if(num<0):
+  print("wrong number")
+else:
+  print("The factorial of given number is",recur(num))
