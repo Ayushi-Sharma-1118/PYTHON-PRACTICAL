@@ -1,0 +1,7 @@
+import numpy as np
+r,c=map(int,inpt("entr row and column size").split())
+a=input("enter space seperated numbers")
+b=list(map(int,a.split()))
+mat=np.arr(b).reshape(r,c)
+print(mat.T)
+print(np.ravel(mat))
