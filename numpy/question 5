@@ -1,0 +1,9 @@
+import numpy as np
+b=[]
+a=input("enter space seperated numbers")
+b=list(map(int,a.split()))
+x = np.array(b)
+print("Original array:")
+print(x)
+print("Most frequent value in the above array:")
+print(np.bincount(x).argmax())
