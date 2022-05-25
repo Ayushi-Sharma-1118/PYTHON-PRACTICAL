@@ -1,0 +1,6 @@
+import numpy as np
+b=[]
+a=input("enter space seperated numbers")
+b=list(map(float,a.split()))
+arr=np.array(b)
+print(arr[::-1])
