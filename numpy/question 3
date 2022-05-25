@@ -1,0 +1,7 @@
+import numpy as np
+r,c=map(int,input("enter row and column").split())
+if(r==c):
+  arr=np.eye(r,c)
+  print(arr)
+else:
+  print("inavlid row and column size")
