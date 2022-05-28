@@ -1,0 +1,12 @@
+a=[]
+b=[]
+n=eval(input("enter size of list 1"))
+m=eval(input("enter size of list 2"))
+for i in range(0,n):
+  val=input("enter the  list elements")
+  a.append(val)
+for i in range(0,m):
+  val=input("enter the  list elements")
+  b.append(val)
+d=dict(zip(a,b))
+print(d)
