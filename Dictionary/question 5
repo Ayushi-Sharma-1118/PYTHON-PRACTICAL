@@ -1,0 +1,16 @@
+a={}
+b={}
+c={}
+n=eval(input("enter size of dictionary"))
+for i in range(0,n):
+  x=input("enter key")
+  y=input("enter value")
+  a[x]=y
+m=eval(input("enter size of dictionary"))
+for i in range(0,m):
+  x=input("enter key")
+  y=input("enter value")
+  b[x]=y
+for d in (a,b):
+  c.update(d)
+print(c)
