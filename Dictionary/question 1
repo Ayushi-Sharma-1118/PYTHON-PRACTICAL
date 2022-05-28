@@ -1,0 +1,14 @@
+def sort(a):
+  sorted_values=sorted(a.values())
+  sorted_dict={}
+  for i in sorted_values:
+    for j in a.keys():
+      if(a[j]==i):
+        sorted_dict[j]=a[j]
+  print(sorted_dict)
+a={}
+n=eval(input("enter size of dictionary"))
+for i inrange(0,n):
+  x=input("enter key")
+  y=input("enter value")
+  a[x]=y
