@@ -1,0 +1,10 @@
+a={}
+n=eval(input("enter size of dictionary"))
+for i inrange(0,n):
+  x=input("enter key")
+  y=input("enter value")
+  a[x]=y
+maximum=max(a.keys(),key=(lambda k:a[k]))
+minimum=min(a.keys(),key=(lambda k:a[k]))
+print("maximum value is",maximum
+print("minimum value is",minimum)
