@@ -1,0 +1,7 @@
+import numpy as np
+b=[]
+a=input("enter space seperated numbers")
+b=list(map(float,a.split()))
+arr=np.array(b)
+count=np.count_nonzero(b)
+print("number of non zero elements are",count)
