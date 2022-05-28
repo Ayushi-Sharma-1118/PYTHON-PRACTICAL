@@ -1,0 +1,14 @@
+a={}
+n=eval(input("enter size of dictionary"))
+for i inrange(0,n):
+  x=input("enter key")
+  y=int(input("enter value"))
+  a[x]=y
+lis=[]
+sum=0
+for i in a:
+  lis.append(a[i])
+for i in lis:
+  sum=sum+i
+print(sum)
+  
