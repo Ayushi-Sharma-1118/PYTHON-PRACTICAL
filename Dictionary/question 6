@@ -1,0 +1,10 @@
+a={}
+n=eval(input("enter size of dictionary"))
+for i inrange(0,n):
+  x=input("enter key")
+  y=input("enter value")
+  a[x]=y
+key=input("enter key to delete")
+if key in a.keys():
+  del a[key]
+print(a)
