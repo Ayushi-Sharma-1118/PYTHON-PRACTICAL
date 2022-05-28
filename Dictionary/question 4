@@ -1,0 +1,13 @@
+a={}
+n=eval(input("enter size of dictionary"))
+for i inrange(0,n):
+  x=input("enter key")
+  y=input("enter value")
+  a[x]=y
+max_val = 0
+max_key = None 
+for i in a:
+    if len(set(a[i])) > max_val:
+        max_val = len(set(a[i]))
+        max_key =i
+print("Key with maximum unique values : " + str(max_key)) 
