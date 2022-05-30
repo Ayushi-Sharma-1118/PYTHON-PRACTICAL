@@ -1,0 +1,9 @@
+import math
+number = math.pow(10,2)  
+print("The power of number:",number)
+number = math.floor(10.25201)  
+print("The floor value is:",number)
+number = math.ceil(10.25201)  
+print("The floor value is:",number)
+number = math.fabs(10.001)  
+print("The floor absolute is:",number)  
