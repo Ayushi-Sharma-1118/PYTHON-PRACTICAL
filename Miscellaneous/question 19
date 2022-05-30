@@ -1,0 +1,11 @@
+import math  
+number = math.factorial(7)  
+print("The factorial of number:",number)
+number = math.modf(44.5)  
+print("The modf of number:",number)
+num = math.gcd(5,25)
+print("hcf=",num)
+num = math.comb(4,2)
+print(num)
+res = math.isclose(math.inf,math.inf)
+print(res)  
